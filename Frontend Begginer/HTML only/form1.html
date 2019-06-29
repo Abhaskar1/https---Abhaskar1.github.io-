@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Submission</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+	<label for="first" placeholder="first name">First Name</label>
+	<input id="first" type="text">
+	<label for="last" placeholder="last name">Last name</label>
+    <input id="last" type="text">
+    <div>
+	<label for="male">Male</label>
+	<input id="male" name="genderChoice" type="radio">
+	<label for="female">Female</label>
+	<input id="female" name="genderChoice" type="radio">
+	<label for="others">Others</label>
+	<input id="others" name="genderChoice" type="radio">
+    </div>
+    <label for="email">Email</label>
+    <input id="email" type="email" required>
+    <label for="password">Password</label>
+    <input id="password" type="password" required>
+    <label for="birthday">Birthday</label>
+    <input type="date" id="birthday" required>
+    <div>
+    <label id="agree">I agree to terms and conditions </label>
+    <input id="agree" type="checkbox">
+    </div>
+    <button>Submit</button>
+</form>
+</body>
+</html>
